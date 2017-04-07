@@ -1,0 +1,13 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance dc" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+ 
+   <referenceBlock name="checkout.cart">
+ 
+       <action method="setTemplate">
+ 
+           <argument name="template" xsi:type="string">Sibhi_Test::cart.phtml</argument>
+ 
+       </action>
+ 
+   </referenceBlock>
+ 
+</page>
